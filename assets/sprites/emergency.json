@@ -1,0 +1,64 @@
+{
+  "name": "비상버튼",
+  "image": "sprites/emergency.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "columns": 4,
+  "rows": 1,
+  "anchor": [
+    0.5,
+    1
+  ],
+  "states": {
+    "normal": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    },
+    "warning": {
+      "index": 1,
+      "x": 64,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    },
+    "pressed": {
+      "index": 2,
+      "x": 128,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    },
+    "disabled": {
+      "index": 3,
+      "x": 192,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    }
+  },
+  "recommendedDrawSize": [
+    64,
+    64
+  ],
+  "recommendedHitArea": [
+    80,
+    80
+  ],
+  "animations": {
+    "warning": {
+      "frames": [
+        0,
+        1
+      ],
+      "durations": [
+        500,
+        500
+      ],
+      "loop": true
+    }
+  },
+  "minimumTouchCssPx": 48
+}

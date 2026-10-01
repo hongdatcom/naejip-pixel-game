@@ -1,0 +1,82 @@
+{
+  "name": "슬러지 보스",
+  "image": "sprites/boss.png",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "columns": 4,
+  "rows": 1,
+  "anchor": [
+    0.5,
+    1
+  ],
+  "states": {
+    "idle": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    "attack": {
+      "index": 1,
+      "x": 96,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    "hit": {
+      "index": 2,
+      "x": 192,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    "defeated": {
+      "index": 3,
+      "x": 288,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    }
+  },
+  "recommendedDrawSize": [
+    112,
+    112
+  ],
+  "recommendedHitArea": [
+    112,
+    112
+  ],
+  "animations": {
+    "attack": {
+      "frames": [
+        0,
+        1
+      ],
+      "durations": [
+        400,
+        180
+      ],
+      "loop": false
+    },
+    "hit": {
+      "frames": [
+        2
+      ],
+      "durations": [
+        140
+      ],
+      "loop": false
+    },
+    "defeated": {
+      "frames": [
+        3
+      ],
+      "durations": [
+        240
+      ],
+      "loop": false
+    }
+  },
+  "minimumTouchCssPx": 48
+}

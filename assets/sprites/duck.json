@@ -1,0 +1,82 @@
+{
+  "name": "오리장난감",
+  "image": "sprites/duck.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "columns": 4,
+  "rows": 1,
+  "anchor": [
+    0.5,
+    1
+  ],
+  "states": {
+    "idle": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    },
+    "idle_alt": {
+      "index": 1,
+      "x": 64,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    },
+    "hit": {
+      "index": 2,
+      "x": 128,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    },
+    "defeated": {
+      "index": 3,
+      "x": 192,
+      "y": 0,
+      "w": 64,
+      "h": 64
+    }
+  },
+  "recommendedDrawSize": [
+    80,
+    80
+  ],
+  "recommendedHitArea": [
+    80,
+    80
+  ],
+  "animations": {
+    "idle": {
+      "frames": [
+        0,
+        1
+      ],
+      "durations": [
+        240,
+        240
+      ],
+      "loop": true
+    },
+    "hit": {
+      "frames": [
+        2
+      ],
+      "durations": [
+        120
+      ],
+      "loop": false
+    },
+    "defeated": {
+      "frames": [
+        3
+      ],
+      "durations": [
+        180
+      ],
+      "loop": false
+    }
+  },
+  "minimumTouchCssPx": 48
+}
