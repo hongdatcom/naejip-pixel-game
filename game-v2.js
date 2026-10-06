@@ -7,7 +7,7 @@ const GOAL=7,ALARM_DELAY=2000;
 const coupons=[
 {id:'A',name:'내시경 점검 0원 쿠폰',src:'assets/coupon.png'},
 {id:'B',name:'1만원 할인권',src:'assets/coupon-b.png'},
-{id:'C',name:'출장비 0원 쿠폰',src:'assets/coupon-c.png'}
+{id:'C',name:'출장비 0원 쿠폰',src:'assets/coupon-c-v2.png'}
 ];
 const couponStorageKey='nzpipe-coupon-next-v1';
 let nextCoupon=0,activeCoupon=coupons[0];
