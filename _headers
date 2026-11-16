@@ -1,0 +1,8 @@
+/assets/fast-20261116/*
+  Cache-Control: public, max-age=31536000, immutable
+/game-v2.js
+  Cache-Control: public, max-age=0, must-revalidate
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/game
+  Cache-Control: public, max-age=0, must-revalidate
